@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alt Matter — Sustainable Alternatives from Parali Waste</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="nav-logo" onclick="scrollTo('hero')">
+      <img src="images/logo.png" alt="Alt Matter Logo" class="nav-logo-img">
+      <span class="nav-brand">alt matter</span>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <span class="nav-a" onclick="scrollTo('problem')">Problem</span>
+      <span class="nav-a" onclick="scrollTo('solution')">Solution</span>
+      <span class="nav-a" onclick="scrollTo('products')">Products</span>
+      <span class="nav-a" onclick="scrollTo('about')">About</span>
+      <span class="nav-a" onclick="scrollTo('contact')">Contact</span>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <span onclick="scrollTo('hero')">Home</span>
+    <span onclick="scrollTo('problem')">Problem</span>
+    <span onclick="scrollTo('solution')">Solution</span>
+    <span onclick="scrollTo('products')">Products</span>
+    <span onclick="scrollTo('about')">About</span>
+    <span onclick="scrollTo('contact')">Contact</span>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section id="hero" class="hero">
+    <div class="ring ring-1"></div>
+    <div class="ring ring-2"></div>
+    <div class="spores" data-count="12" data-color="#4a6e2e"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="reveal">
+          <span class="tag">🌿 Sustainable Materials · India</span>
+        </div>
+        <div class="reveal" data-delay="80">
+          <h1>Sustainable alternatives<br>from <em>Parali waste</em>,<br>not plastic.</h1>
+        </div>
+        <div class="reveal" data-delay="160">
+          <p class="hero-sub">Alt Matter builds mycelium-based products from agricultural stubble waste — 100% biodegradable in 45 days, structurally strong, and designed for businesses serious about their ESG commitments.</p>
+        </div>
+        <div class="reveal" data-delay="300">
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-num">45 days</div>
+              <div class="stat-label">Biodegradation time</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">1,000 yrs</div>
+              <div class="stat-label">Saved vs plastic</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">40 kg</div>
+              <div class="stat-label">CO₂ cut per chair</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal hero-visual-wrap" data-delay="200">
+        <div class="hero-blob-outer">
+          <div class="hero-blob-inner">
+            <img src="images/logo.png" alt="Hero Image" class="hero-image">
+          </div>
+          <div class="hero-badge badge-1">Parali-based</div>
+          <div class="hero-badge badge-2">45-day biodegradable</div>
+          <div class="hero-badge badge-3">ESG-ready</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROBLEM ── -->
+  <section id="problem" class="section-dark">
+    <div class="spores" data-count="14" data-color="#5a7c3a"></div>
+    <div class="container">
+      <div class="reveal section-header">
+        <span class="tag tag-dark">The Problem</span>
+        <h2>Traditional materials are poisoning<br><em>our land, air, and oceans.</em></h2>
+      </div>
+
+      <div class="g2 problem-stats">
+        <div class="reveal stat-card" data-delay="0">
+          <div class="stat-card-icon">⏳</div>
+          <div class="stat-big"><span class="stat-big-num">1,000</span> <span class="stat-big-unit">years</span></div>
+          <p>For an average plastic chair to biodegrade — long after your business, your customers, and their grandchildren are gone.</p>
+        </div>
+        <div class="reveal stat-card" data-delay="100">
+          <div class="stat-card-icon">🌡️</div>
+          <div class="stat-big"><span class="stat-big-num">40</span> <span class="stat-big-unit">kg CO₂</span></div>
+          <p>Emitted by a single average plastic chair across its lifecycle — multiplied by every piece of furniture in your space.</p>
+        </div>
+      </div>
+
+      <div class="g3">
+        <div class="reveal dark-card" data-delay="0">
+          <div class="dark-card-icon">🔥</div>
+          <h3>Stubble Burning Crisis</h3>
+          <p>Farmers across Punjab and Haryana burn millions of tonnes of Parali each year — blanketing North India in toxic smog and pushing agricultural families deeper into debt.</p>
+        </div>
+        <div class="reveal dark-card" data-delay="120">
+          <div class="dark-card-icon">🔧</div>
+          <h3>No Design Flexibility</h3>
+          <p>Plastic and metal lock businesses into rigid, generic forms. Bespoke, branded spaces that communicate identity mean paying a steep wood premium.</p>
+        </div>
+        <div class="reveal dark-card" data-delay="240">
+          <div class="dark-card-icon">📋</div>
+          <h3>ESG Compliance Pressure</h3>
+          <p>Stricter regulations and investor scrutiny mean businesses — especially restaurants, co-working spaces, and eco-hotels — must act on sustainability now, not later.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SOLUTION ── -->
+  <section id="solution" class="section-light-green">
+    <div class="radial-glow"></div>
+    <div class="container">
+      <div class="reveal section-header">
+        <span class="tag">Our Solution</span>
+        <h2>Two ingredients. One solution.<br><em>Zero plastic.</em></h2>
+        <p class="section-sub">Agricultural waste (Parali) + Mycelium fungal network = products that are structurally strong, fully customizable, and return to the earth within 45 days.</p>
+      </div>
+      <div class="g3">
+        <div class="reveal benefit-card" data-delay="0">
+          <div class="benefit-icon">🌱</div>
+          <h3>100% Biodegradable in 45 Days</h3>
+          <p>Induced degradation returns the material cleanly to soil. No microplastics. No landfill. No legacy toxicity for future generations.</p>
+        </div>
+        <div class="reveal benefit-card" data-delay="100">
+          <div class="benefit-icon">🌾</div>
+          <h3>Turns Parali Into Value</h3>
+          <p>Instead of burning stubble, farmers sell it to us as substrate. We convert agricultural waste into premium products — improving AQI and farmer incomes simultaneously.</p>
+        </div>
+        <div class="reveal benefit-card" data-delay="200">
+          <div class="benefit-icon">🔩</div>
+          <h3>Structurally Competitive</h3>
+          <p>Mycelium composites match plastics in compressive strength. Durability and lifespan comparable to standard materials — durability first, always.</p>
+        </div>
+        <div class="reveal benefit-card" data-delay="300">
+          <div class="benefit-icon">📐</div>
+          <h3>Fully Customizable Forms</h3>
+          <p>Mycelium is a 'growable' material. We produce any geometry — tailored to your space, brand, and identity.</p>
+        </div>
+        <div class="reveal benefit-card" data-delay="400">
+          <div class="benefit-icon">🏢</div>
+          <h3>B2B ESG Differentiation</h3>
+          <p>Partner with us to showcase real sustainability in your premises. Cafés, co-working spaces, eco-hotels, and corporate offices use our products as a visible ESG commitment.</p>
+        </div>
+        <div class="reveal benefit-card" data-delay="500">
+          <div class="benefit-icon">💰</div>
+          <h3>Bridges the Market Gap</h3>
+          <p>Alt Matter sits between cheap plastic and expensive wood — genuine sustainability at a price point businesses can justify and customers can see.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PRODUCTS ── -->
+  <section id="products" class="section-dark">
+    <div class="spores" data-count="12" data-color="#5a7c3a"></div>
+    <div class="container">
+      <div class="reveal section-header">
+        <span class="tag tag-dark">What We Make</span>
+        <h2>One material.<br><em>Endless applications.</em></h2>
+        <p class="section-sub-dark">Our mycelium composite replaces plastic, foam, leather, and timber across five product categories — all grown from Parali.</p>
+      </div>
+
+      <div class="products-layout">
+        <!-- Row 1 -->
+        <div class="products-row-2">
+          <div class="reveal product-card" data-delay="0" data-accent="#5a7c3a">
+            <div class="product-card-header">
+              <div class="product-icon-blob" style="background: linear-gradient(135deg,#5a7c3a,#5a7c3a88)">🪑</div>
+              <h3>Furniture</h3>
+            </div>
+            <p>Tables, chairs, panels, and modular systems — grown to any geometry, as strong as conventional materials, and fully compostable at end of life.</p>
+            <div class="product-line" style="background: linear-gradient(90deg,#5a7c3a,#5a7c3a44)"></div>
+          </div>
+          <div class="reveal product-card" data-delay="100" data-accent="#4a7030">
+            <div class="product-card-header">
+              <div class="product-icon-blob" style="background: linear-gradient(135deg,#4a7030,#4a703088)">📦</div>
+              <h3>Packaging</h3>
+            </div>
+            <p>Custom-moulded protective packaging that replaces EPS foam. Biodegrades in 45 days at home — no microplastics, no landfill.</p>
+            <div class="product-line" style="background: linear-gradient(90deg,#4a7030,#4a703044)"></div>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="products-row-2">
+          <div class="reveal product-card" data-delay="200" data-accent="#3d5a28">
+            <div class="product-card-header">
+              <div class="product-icon-blob" style="background: linear-gradient(135deg,#3d5a28,#3d5a2888)">🔇</div>
+              <h3>Sound Isolation Panels</h3>
+            </div>
+            <p>Mycelium's naturally porous structure delivers excellent acoustic absorption. Sustainable panels for studios, offices, and hospitality spaces.</p>
+            <div class="product-line" style="background: linear-gradient(90deg,#3d5a28,#3d5a2844)"></div>
+          </div>
+          <div class="reveal product-card" data-delay="300" data-accent="#5a7c3a">
+            <div class="product-card-header">
+              <div class="product-icon-blob" style="background: linear-gradient(135deg,#5a7c3a,#5a7c3a88)">🌿</div>
+              <h3>Interior Décor</h3>
+            </div>
+            <p>Sculptural wall pieces, partition screens, and decorative elements that bring living texture into commercial and residential interiors.</p>
+            <div class="product-line" style="background: linear-gradient(90deg,#5a7c3a,#5a7c3a44)"></div>
+          </div>
+        </div>
+
+        <!-- Row 3: wide card -->
+        <div class="reveal product-card product-card-wide" data-delay="400">
+          <div class="product-icon-blob product-icon-lg" style="background: linear-gradient(135deg,#4a7030,#4a703088)">🧵</div>
+          <div class="product-wide-body">
+            <h3>Textile Alternatives</h3>
+            <p>Leather and upholstery substitutes grown from mycelium — soft, durable, and animal-free. A direct drop-in for conventional leather in furniture and fashion.</p>
+          </div>
+          <div class="product-tags">
+            <span class="product-tag">Leather alternative</span>
+            <span class="product-tag">Upholstery</span>
+            <span class="product-tag">Animal-free</span>
+            <span class="product-tag">Home compostable</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHO WE SERVE ── -->
+  <section class="section-light-green">
+    <div class="container">
+      <div class="reveal section-header">
+        <span class="tag">Who We Serve</span>
+        <h2>Built for businesses that want<br><em>sustainability you can sit on.</em></h2>
+      </div>
+      <div class="g3">
+        <div class="reveal serve-card" data-delay="0">
+          <div class="serve-icon">☕</div>
+          <h3>Cafés &amp; Restaurants</h3>
+          <p>ESG regulations are tightening fast. Alt Matter products let you showcase your commitment without compromising on design or comfort. Co-branding partnerships available.</p>
+        </div>
+        <div class="reveal serve-card" data-delay="120">
+          <div class="serve-icon">💼</div>
+          <h3>Co-working Spaces</h3>
+          <p>Furnish your entire floor with certified sustainable furniture. Attract eco-conscious tenants and reduce your scope 3 emissions reporting burden.</p>
+        </div>
+        <div class="reveal serve-card" data-delay="240">
+          <div class="serve-icon">🌿</div>
+          <h3>Eco-hotels &amp; Resorts</h3>
+          <p>Every piece tells a story — grown from Parali, net-positive on carbon, and compostable at end of life. Guests notice. Reviews reflect it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT / TEAM ── -->
+  <section id="about" class="section-cream">
+    <div class="container">
+      <div class="reveal section-header">
+        <span class="tag">The Team</span>
+        <h2>Built by researchers,<br><em>driven by purpose.</em></h2>
+      </div>
+      <div class="g2 team-grid">
+        <div class="reveal team-card" data-delay="0">
+          <div class="team-icon"><img src="images/sahil.jpeg" alt="Sahil Dhania"></div>
+          <div>
+            <div class="team-name">Sahil Dhania</div>
+            <div class="team-role">R&amp;D · Mycelium Science</div>
+            <p>Deep R&amp;D knowledge in mycelium composites, design, UI/UX, and manufacturing operations.</p>
+          </div>
+        </div>
+        <div class="reveal team-card" data-delay="100">
+          <div class="team-icon"><img src="images/aryaman.jpeg" alt="Aryaman Pillai"></div>
+          <div>
+            <div class="team-name">Aryaman Pillai</div>
+            <div class="team-role">Product &amp; Business</div>
+            <p>Strong blend of R&amp;D expertise, product design &amp; development skills, and business acumen.</p>
+          </div>
+        </div>
+        <div class="reveal team-card" data-delay="200">
+          <div class="team-icon"><img src="images/jubin.jpeg" alt="Jubin Singh"></div>
+          <div>
+            <div class="team-name">Jubin Singh</div>
+            <div class="team-role">Business Development</div>
+            <p>Strengths in market research, operations, and app development driving commercial growth.</p>
+          </div>
+        </div>
+        <div class="reveal team-card" data-delay="300">
+          <div class="team-icon"><img src="images/monank.jpeg" alt="Monank Vijayvargiya"></div>
+          <div>
+            <div class="team-name">Monank Vijayvargiya</div>
+            <div class="team-role">R&amp;D · Operations</div>
+            <p>Specializes in R&amp;D and operations with expertise in app development and manufacturing scale.</p>
+          </div>
+        </div>
+      </div>
+      <div class="reveal why-box" data-delay="300">
+        <div class="why-text">
+          <div class="why-title">Why Alt Matter?</div>
+          <p>We combine deep mycelium R&amp;D with commercial product design — customer-validated across North and South India, with a supply chain built around Parali farmers from day one.</p>
+        </div>
+        <div class="why-tags">
+          <span class="why-tag">IIT Mumbai</span>
+          <span class="why-tag">Customer-Validated</span>
+          <span class="why-tag">Parali-first</span>
+          <span class="why-tag">India-native</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section-dark">
+    <div class="spores" data-count="14" data-color="#4a6e2e"></div>
+    <div class="container contact-container">
+      <div class="reveal">
+        <span class="tag tag-dark">Contact Us</span>
+        <h2>Ready to make your<br><em>space sustainable?</em></h2>
+        <p class="contact-sub">Whether you're a café, co-working space, hotel, or corporate office — reach out and let's talk about how Alt Matter can transform your space and your ESG story.</p>
+        <a href="mailto:sss.iitb123@gmail.com" class="contact-email">sss.iitb123@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="images/footer.png" alt="Alt Matter Logo" class="footer-logo-img">
+              <span>alt matter</span>
+            </div>
+          <p>Mycelium-based sustainable alternatives grown from Parali agricultural waste. Made in India.</p>
+          <a href="mailto:sss.iitb123@gmail.com" class="footer-email">📧 sss.iitb123@gmail.com</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Navigate</div>
+          <span class="footer-link" onclick="scrollTo('hero')">Home</span>
+          <span class="footer-link" onclick="scrollTo('problem')">Problem</span>
+          <span class="footer-link" onclick="scrollTo('solution')">Solution</span>
+          <span class="footer-link" onclick="scrollTo('products')">Products</span>
+          <span class="footer-link" onclick="scrollTo('about')">Team</span>
+          <span class="footer-link" onclick="scrollTo('contact')">Contact</span>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Products</div>
+          <span class="footer-item">Furniture</span>
+          <span class="footer-item">Packaging</span>
+          <span class="footer-item">Sound Isolation Panels</span>
+          <span class="footer-item">Interior Décor</span>
+          <span class="footer-item">Textile Alternatives</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2025 Alt Matter. All rights reserved.</div>
+        <div class="footer-india">
+          <div class="pulse-dot"></div>
+          <span>Proudly grown in India 🇮🇳</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
