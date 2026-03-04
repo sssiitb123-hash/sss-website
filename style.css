@@ -287,6 +287,12 @@ nav.scrolled {
 footer { padding: 3.5rem 2.5rem 2rem; background: #0a1005; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2rem; margin-bottom: 2.5rem; }
 .footer-logo { display: flex; align-items: center; gap: .6rem; margin-bottom: .9rem; }
+.footer-logo img {
+  height: 38px;   /* adjust between 30–45px */
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
 .footer-logo span { font-family: 'Lora', Georgia, serif; font-weight: 700; font-size: 1.1rem; color: #f4efe6; }
 .footer-brand p { color: #4a6040; font-size: .87rem; line-height: 1.7; max-width: 240px; }
 .footer-email { color: #6a9050; font-size: .85rem; text-decoration: none; display: block; margin-top: .8rem; }
